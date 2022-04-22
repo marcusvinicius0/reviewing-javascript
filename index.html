@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 id="area">
+        Seja bem-vindo(a) - evoluindo sempre!
+    </h1>
+
+    <h2>Coisas que preciso fazer para as proximas horas/dias:</h2>
+    <p>Hoje:</p>
+    <ol>
+        <li>Estudar/revisar javascript, react, node até as 17:00pm [X]</li>
+        <li>Ir para a academia []</li>
+        <li>Terminar meu portfolio a noite []</li>
+        <li>Aproveitar o resto da noite []</li>
+    </ol>
+
+    <p>Amanha:</p>
+    <ul>
+        <li>Acordar 7am</li>
+        <li>Ler 10 páginas</li>
+        <li>Começar estudo as 8am e parar 9:30am</li>
+        <li>Comer e ir para a academia</li>
+        <li>Terminar declaração irpf na parte da tarde</li>
+        <li>Depois, pode aproveitar o restante do dia...</li>
+    </ul>
+
+    <h3>Escolha um item</h3>
+
+    <ul>
+        <li>1 - Suco</li>
+        <li>2 - Sorvete</li>
+        <li>3 - Água gelada</li>
+        <li>4 - Chamar o garçom</li>
+    </ul>
+
+    <form onsubmit={calcular(event)}>
+
+        <label>Digite seu peso:</label> <br />
+        <input type="text" name="peso" id="peso" placeholder="exemplo: 65"> <br /> <br />
+
+        <label>Digite sua altura:</label> </br>
+        <input type="text" name="altura" id="altura" placeholder="exemplo: 1.80"> <br /> <br />
+
+        <input type="submit" value="CALCULAR IMC">
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
